@@ -1,4 +1,4 @@
 package br.com.fiap.apisphere.auth;
 
-public record Credentials() {
+public record Credentials(String email, String password) {
 }
